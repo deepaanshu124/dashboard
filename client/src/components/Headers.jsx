@@ -268,10 +268,10 @@ const Headers = ({ handleLoginClick }) => {
                                             </Link>
 
                                         </div>
-                                        <div className="relative flex cursor-pointer justify-center items-center gap-2 rounded-lg ">
-                                            <Link className='flex cursor-pointer justify-center items-center gap-2 rounded-lg px-2  py-2' to='/becomeseller'>
+                                       <div className="relative flex cursor-pointer justify-center items-center gap-2 rounded-lg ">
+                                            <Link className='flex cursor-pointer justify-center items-center gap-2 rounded-lg px-2  py-2' to='http://packpin.in:81/register'>
                                                 <span className=' '><FaStore /></span>
-                                                <span className=''>Become a sellera </span>
+                                                <span className=''> <a href="http://packpin.in:81/register">Become a sellera</a></span>
                                             </Link>
                                         </div>
 
